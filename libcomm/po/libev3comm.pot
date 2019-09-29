@@ -1,0 +1,193 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Jakub Vaněk
+# This file is distributed under the same license as the libev3comm package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: libev3comm 0.2.0\n"
+"Report-Msgid-Bugs-To: linuxtardis@gmail.com\n"
+"POT-Creation-Date: 2019-09-29 17:19+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:92
+msgid "Promise was cancelled"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:100
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:113
+msgid "WARNING: c++ promise bridge called twice"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:107
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:120
+msgid "WARNING: c++ promise error: "
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:162
+msgid "WARNING: c++ success callback error"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:171
+msgid "WARNING: c++ failure callback error"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands_system.cpp:554
+msgid "Invalid MAC format received."
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3.cpp:154
+msgid "Packet timed out."
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_bt_types.cpp:23
+msgid "BT address does not contain valid prefix"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_bt_types.cpp:37
+msgid "BT address is invalid"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:21
+msgid "HID address does not contain valid prefix"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:32
+msgid "HID ID is invalid"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:40
+msgid "HID address separator is invalid"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:53
+msgid "Extra data after HID address end"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:47
+msgid "Success"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:49
+msgid "Unknown handle"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:51
+msgid "Handle not ready"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:53
+msgid "File is corrupt"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:55
+msgid "No handles available"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:57
+msgid "Operation not permitted"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:59
+msgid "Illegal path"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:61
+msgid "File exists"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:63
+msgid "End of file reached"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:65
+msgid "Size error"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:67
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:109
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:153
+msgid "Unknown error"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:69
+msgid "Illegal filename"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:71
+msgid "Illegal connection"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:73
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:127
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:165
+msgid "Error not described in source"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:107
+msgid "No error"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:111
+msgid "Reply size mismatch"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:113
+msgid "Reply type mismatch"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:115
+msgid "Reply command mismatch"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:117
+msgid "Unexpected EOF"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:119
+msgid "EOF expected"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:121
+msgid "Directory listing parse failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:123
+msgid "Reply too large"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:125
+msgid "Reply too small"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:155
+msgid "Connection failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:157
+msgid "Write failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:159
+msgid "Read failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:161
+msgid "HIDAPI initialization failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:163
+msgid "HIDAPI deinitialization failed"
+msgstr ""
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/exceptions.hpp:106
+#, c-format
+msgid "Device %s - %s (%S) at %s"
+msgstr ""

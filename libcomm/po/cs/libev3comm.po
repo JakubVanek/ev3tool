@@ -1,0 +1,204 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: libev3comm 0.2.0\n"
+"Report-Msgid-Bugs-To: linuxtardis@gmail.com\n"
+"POT-Creation-Date: 2019-09-29 17:19+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jakub Vaněk <linuxtardis@gmail.com>\n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: src\n"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:92
+msgid "Promise was cancelled"
+msgstr "C++ promise byl zrušen"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:100
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:113
+msgid "WARNING: c++ promise bridge called twice"
+msgstr "VAROVÁNÍ: c++ promise vrátil více hodnot"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:107
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:120
+msgid "WARNING: c++ promise error: "
+msgstr "VAROVÁNÍ: chyba c++ promise: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:162
+msgid "WARNING: c++ success callback error"
+msgstr "VAROVÁNÍ: chyba C++ asynchronního volání úspěchu"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands.hpp:171
+msgid "WARNING: c++ failure callback error"
+msgstr "VAROVÁNÍ: chyba C++ asynchronního volání selhání"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/commands_system.cpp:554
+msgid "Invalid MAC format received."
+msgstr "Přijatá MAC adresa měla špatný formát."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3.cpp:154
+msgid "Packet timed out."
+msgstr "Vypršel časový limit paketu."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_bt_types.cpp:23
+#, fuzzy
+msgid "BT address does not contain valid prefix"
+msgstr "HID adresa nemá správnou předponu"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_bt_types.cpp:37
+#, fuzzy
+msgid "BT address is invalid"
+msgstr "Oddělovač v HID adrese je neplatný"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:21
+msgid "HID address does not contain valid prefix"
+msgstr "HID adresa nemá správnou předponu"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:32
+msgid "HID ID is invalid"
+msgstr "ID v HID adrese je neplatné"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:40
+msgid "HID address separator is invalid"
+msgstr "Oddělovač v HID adrese je neplatný"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/connection_ev3_hid_types.cpp:53
+msgid "Extra data after HID address end"
+msgstr "Přebytečná data na konci HID adresy"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:47
+msgid "Success"
+msgstr "Úspěch"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:49
+msgid "Unknown handle"
+msgstr "Neznámý deskriptor souboru"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:51
+msgid "Handle not ready"
+msgstr "Deskriptor souboru není připraven"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:53
+msgid "File is corrupt"
+msgstr "Soubor je poškozený"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:55
+msgid "No handles available"
+msgstr "Nedostatek deskriptorů"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:57
+msgid "Operation not permitted"
+msgstr "Operace není povolena"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:59
+msgid "Illegal path"
+msgstr "Neplatná cesta"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:61
+msgid "File exists"
+msgstr "Soubor existuje"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:63
+msgid "End of file reached"
+msgstr "Dosažen konec souboru"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:65
+msgid "Size error"
+msgstr "Chyba délky zprávy"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:67
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:109
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:153
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:69
+msgid "Illegal filename"
+msgstr "Neplatný název souboru"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:71
+msgid "Illegal connection"
+msgstr "Neplatné spojení"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:73
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:127
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:165
+msgid "Error not described in source"
+msgstr "Chyba nebyla pojmenována"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:107
+msgid "No error"
+msgstr "Žádná chyba"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:111
+msgid "Reply size mismatch"
+msgstr "Nesedí velikost příchozí zprávy"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:113
+msgid "Reply type mismatch"
+msgstr "Nesedí příchozí typ zprávy"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:115
+msgid "Reply command mismatch"
+msgstr "Nesedí odchozí a příchozí příkaz"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:117
+msgid "Unexpected EOF"
+msgstr "Neočekávaný konec souboru"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:119
+msgid "EOF expected"
+msgstr "Očekáván konec souboru"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:121
+msgid "Directory listing parse failed"
+msgstr "Selhalo parsování výpisu adresáře"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:123
+msgid "Reply too large"
+msgstr "Odpověď zařízení je příliš velká"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:125
+msgid "Reply too small"
+msgstr "Odpověď zařízení je příliš malá"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:155
+msgid "Connection failed"
+msgstr "Spojení bylo přerušeno"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:157
+msgid "Write failed"
+msgstr "Zápis selhal"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:159
+msgid "Read failed"
+msgstr "Čtení selhalo"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:161
+msgid "HIDAPI initialization failed"
+msgstr "Selhala inicializace HIDAPI"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/ev3proto.cpp:163
+msgid "HIDAPI deinitialization failed"
+msgstr "Selhalo ukončení HIDAPI"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/libcomm/src/exceptions.hpp:106
+#, c-format
+msgid "Device %s - %s (%S) at %s"
+msgstr "Zařízení %s - %s (%S) v souboru %s"
+
+#~ msgid "WARNING: Unknown exception in eventloop"
+#~ msgstr "VAROVÁNÍ: neznámá chyba v komunikačním vlákně"
+
+#~ msgid "Communication error in eventloop: "
+#~ msgstr "Chyba komunikace v komunikačním vlákně: "
+
+#~ msgid "Packet truncated"
+#~ msgstr "Paket byl oříznut"

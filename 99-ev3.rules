@@ -1,0 +1,11 @@
+# Udev rules for EV3
+
+# HIDAPI/libusb
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0005", MODE="0666"
+SUBSYSTEM=="usb", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0006", MODE="0666"
+
+# HIDAPI/hidraw
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0005", MODE="0666"
+SUBSYSTEM=="hidraw", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0006", MODE="0666"
+KERNEL=="hidraw*", ATTRS{busnum}=="1", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0005", MODE="0666"
+KERNEL=="hidraw*", ATTRS{busnum}=="1", ATTRS{idVendor}=="0694", ATTRS{idProduct}=="0006", MODE="0666"

@@ -1,0 +1,483 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ev3tool\n"
+"Report-Msgid-Bugs-To: linuxtardis@gmail.com\n"
+"POT-Creation-Date: 2019-09-29 17:19+0200\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Jakub Vaněk <linuxtardis@gmail.com>\n"
+"Language-Team: \n"
+"Language: cs\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=3; plural=(n==1) ? 0 : (n>=2 && n<=4) ? 1 : 2;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: ../src\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:34
+#, c-format
+msgid "Progress: %3d %%"
+msgstr "Průběh: %3d %%"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:97
+msgid "Cannot read file"
+msgstr "Nemohu přečíst soubor"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:110
+msgid "Cannot write file"
+msgstr "Nemohu zapsat soubor"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:120
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:166
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:192
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:203
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:214
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:225
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:469
+msgid "Done."
+msgstr "Hotovo."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:172
+#, c-format
+msgid "Asking for '%s' contents..."
+msgstr "Zjišťuji obsah adresáře '%s'..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:177
+#, c-format
+msgid "Directory listing for '%s':"
+msgstr "Obsah adresáře '%s':"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:237
+#, c-format
+msgid "EV3 CLI tool %s"
+msgstr "EV3 CLI tool %s"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:238
+msgid "Usage:"
+msgstr "Použití:"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:239
+msgid "ev3tool [flags] <command> [flags]"
+msgstr "ev3tool [přepínače] <příkaz> [přepínače]"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:244
+msgid "Commands:"
+msgstr "Příkazy:"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:249
+msgid "Address syntax:"
+msgstr "Formát adresy:"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:250
+msgid "HID:<VID>:<PID>[:<SN>]"
+msgstr "HID:<VID>:<PID>[:<SN>]"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:251
+msgid "  VID = USB/BT hexadecimal vendor id"
+msgstr "  VID = USB/BT hexadecimální ID výrobce"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:252
+msgid "  PID = USB/BT hexadecimal product id"
+msgstr "  PID = USB/BT hexadecimální ID produktu"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:253
+msgid "  SN  = USB/BT product serial number"
+msgstr "  SN  = USB/BT sériové číslo"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:263
+msgid "- unexpected packet -"
+msgstr "- neočekávaný paket -"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:266
+msgid "Error on the receive thread!"
+msgstr "Chyba v přijímacím vlákně!"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:270
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:47
+msgid "HID error: "
+msgstr "Chyba HID: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:272
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:49
+msgid "Transmission error: "
+msgstr "Chyba přenosu: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:274
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:51
+msgid "Operation aborted: "
+msgstr "Operace přerušena: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:276
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:53
+msgid "Operation timed out: "
+msgstr "Vypršel časový limit operace: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:278
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:55
+msgid "Message error: "
+msgstr "Chyba zprávy: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:280
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:57
+msgid "Remote error: "
+msgstr "Vzdálená chyba: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:282
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:59
+msgid "Communication error: "
+msgstr "Chyba komunikace: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:284
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:61
+msgid "Generic error: "
+msgstr "Obecná chyba: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:286
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:63
+msgid "Unknown error"
+msgstr "Neznámá chyba"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:295
+msgid "HID devices matching EV3:"
+msgstr "HID zařízení odpovídající EV3:"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:312
+#, c-format
+msgid "- '%s' -> EV3 lms2012"
+msgstr "- '%s' -> EV3 lms2012"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:314
+#, c-format
+msgid "- '%s' -> EV3 firmware update"
+msgstr "- '%s' -> EV3 v režimu aktualizace firmware"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:316
+#, c-format
+msgid "- '%s' -> EV3 unknown"
+msgstr "- '%s' -> neznámé zařízení"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:323
+#, c-format
+msgid "Found total %d brick."
+msgid_plural "Found total %d bricks."
+msgstr[0] "Nalezena dohromady %d kostka."
+msgstr[1] "Nalezeny dohromady %d kostky."
+msgstr[2] "Nalezeno dohromady %d kostek."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:350
+msgid "Rebooting EV3..."
+msgstr "Restartuji EV3..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:355
+msgid "Reboot started."
+msgstr "Restart byl odstartován."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:370
+msgid "Loading firmware file..."
+msgstr "Načítám soubor s firmware..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:375
+#, c-format
+msgid "Firmware loaded. Length %d, CRC32 0x%08x"
+msgstr "Firmware načten. Délka %d, CRC32 0x%08x"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:385
+msgid "Erasing flash..."
+msgstr "Mažu flash pamět..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:388
+msgid "Erasing finished."
+msgstr "Mazání dokončeno."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:394
+msgid "Flashing new firmware..."
+msgstr "Nahrávám nový firmware..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:400
+msgid "Flashing finished."
+msgstr "Nahrávání dokončeno."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:406
+msgid "Verifying firmware integrity..."
+msgstr "Ověřuji nahraný firmware..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:414
+#, c-format
+msgid "CRC32 matches: 0x%08x"
+msgstr "CRC32 odpovídá: 0x%08x"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:417
+#, c-format
+msgid "CRC32 does not match (0x%08x remote, 0x%08x local)"
+msgstr "CRC32 neodpovídá (0x%08x vzdálené, 0x%08x místní)"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:420
+msgid "CRC32 mismatch"
+msgstr "Kontrola CRC32 se nepodařila"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:438
+#, c-format
+msgid "Hardware version: V%c.%c0"
+msgstr "Verze hardware: V%c.%c0"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:439
+#, c-format
+msgid "EEPROM   version: V%c.%c0"
+msgstr "Verze EEPROM: V%c.%c0"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:452
+msgid "File handle listing is not yet implemented."
+msgstr "Vypisování otevřených deskriptorů zatím není implementováno."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:458
+msgid "Reading message..."
+msgstr "Čtu zprávu..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:461
+msgid "Writing mailbox..."
+msgstr "Zapisuji do mailboxu..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:481
+msgid "Invalid format of the provided MAC address."
+msgstr "Zadaná MAC adresa má špatný formát."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:484
+msgid "Sending pin change request..."
+msgstr "Odesílám žádost o změnu pinu..."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:488
+msgid "Success! Brick blutooth info:"
+msgstr "Úspěch! Informace o bluetooth na kostce:"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:489
+#, c-format
+msgid "- brick PIN: %u"
+msgstr "- PIN kostky: %u"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/actions.cpp:490
+#, c-format
+msgid "- brick MAC: %02hhX:%02hhX:%02hhX:%02hhX:%02hhX:%02hhX"
+msgstr "- MAC kostky: %02hhX:%02hhX:%02hhX:%02hhX:%02hhX:%02hhX"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:49
+msgid "Show this help message."
+msgstr "Zobrazí tuto nápovědu."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:50
+msgid "Show program version string."
+msgstr "Zobrazí verzi programu."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:51
+msgid "Increase output verbosity."
+msgstr "Zvýší podrobnost výpisů."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:52
+msgid "Decrease output verbosity."
+msgstr "Sníží podrobnost výpisů."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:53
+msgid "Show MD5 hashes of files in directory listings."
+msgstr "Zobrazí MD5 hashe souborů ve výpisech adresářů."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:54
+msgid "Connect to EV3 at a specific address."
+msgstr "Připojí se k EV3 na dané adrese."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:55
+msgid "Upload/download file from a location."
+msgstr "Nahraje/stáhne soubor z daného umístění."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:56
+msgid "Upload/download file to a location."
+msgstr "Nahraje/stáhne soubor do daného umístění."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:57
+msgid "Prints all connected bricks."
+msgstr "Vypíše připojené kostky."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:58
+msgid "Upload a file to the brick. Needs --from and --to."
+msgstr "Nahraje soubor na kostku. Potřebuje parametry --from a --to."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:59
+msgid "Download a file from the brick. Needs --from and --to."
+msgstr "Stáhne soubor z kostky. Potřebuje parametry --from a --to."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:60
+msgid "Creates a directory on the brick. Needs --to."
+msgstr "Vytvoří adresář na kostce. Potřebuje parametr --to."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:61
+msgid "Print directory listing from the brick. Needs --from."
+msgstr "Vypíše obsah adresáře na kostce. Potřebuje parametr --from."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:62
+msgid "Remove a file from the brick. Needs --from."
+msgstr "Odstraní soubor z kostky. Potřebuje parametr --from."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:63
+msgid "Write into EV3 mailbox. Needs --from (file) and --to (mailbox name)."
+msgstr ""
+"Zapíše zprávu do EV3 mailboxu. Potřebuje --from (soubor) a --to (název "
+"mailboxu)."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:64
+msgid "Set BT pin. Needs --from (client MAC) and --to (new PIN)."
+msgstr "Nastaví BT pin. Potřebuje --from (MAC počítače) a --to (nový PIN)."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:65
+msgid "List all open handles."
+msgstr "Vypíše všechny otevřené deskriptory na kostce."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:66
+msgid "Try to close all handles."
+msgstr "Pokusí se zavřít všechny deskriptory souborů na kostce."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:67
+msgid "Close only one handle. Needs --from."
+msgstr ""
+"Pokusí se zavřít jeden deskriptor souboru na kostce. Potřebuje parametr --"
+"from."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:68
+msgid "Reboot into bootloader/firmware update mode."
+msgstr "Restartuje do režimu nahrávání firmwaru."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:69
+msgid "Reboot out of bootloader/firmware update mode."
+msgstr "Restartuje pryč z režimu nahrávání firmwaru."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:70
+msgid "Get HW/FW version from bootloader mode."
+msgstr "Získá verzi HW/FW z režimu nahrávání firmwaru."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:71
+msgid "Flash a firmware file to the brick. Needs --from."
+msgstr "Nahraje firmware na kostku. Potřebuje parametr --from."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:224
+msgid "Error: missing required arguments."
+msgstr "Chyba: potřebné parametry nebyly zadány."
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:329
+msgid "Invalid argument"
+msgstr "Neznámý parametr"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:392
+#, c-format
+msgid "Missing argument for %s"
+msgstr "Chybí parametr pro přepínač: %s"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/cmdline_parser.cpp:414
+#, c-format
+msgid "Command already specified: %s"
+msgstr "Příkaz už byl zadán: %s"
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:36
+msgid "Error parsing arguments: "
+msgstr "Chyba při čtení parametrů: "
+
+#: /home/kuba/lego/ev3/stock/nxc4ev3/try1/src/libev3comm/tool/src/main.cpp:44
+msgid "Nothing to do."
+msgstr "Nic k provedení."
+
+#~ msgid "Download finished."
+#~ msgstr "Flashování dokončeno."
+
+#~ msgid "Checking remote CRC32..."
+#~ msgstr "Kontroluji vzdálené CRC32..."
+
+#~ msgid "Upload complete!"
+#~ msgstr "Nahrávání dokončeno!"
+
+#~ msgid "Download complete!"
+#~ msgstr "Stahování dokončeno!"
+
+#~ msgid "ls complete!"
+#~ msgstr "Výpis adresáře dokončen!"
+
+#~ msgid "rm complete!"
+#~ msgstr "Odstranění souboru dokončeno!"
+
+#~ msgid " --connect=<addr>  Decrease output verbosity."
+#~ msgstr " --connect=<addr>  Připojí se k danému zařízení."
+
+#~ msgid "Firmware version: "
+#~ msgstr "Verze firmwaru: "
+
+#~ msgid "UNKNWOWN EXCEPTION"
+#~ msgstr "NEZNÁMÁ CHYBA"
+
+#~ msgid "EXCEPTION: "
+#~ msgstr "CHYBA: "
+
+#~ msgid "USB ERROR: "
+#~ msgstr "CHYBA USB: "
+
+#~ msgid "WTF packet appeared"
+#~ msgstr "WTF, je tu volný paket"
+
+#~ msgid "Reboot OK"
+#~ msgstr "Restart OK"
+
+#~ msgid "Calculating CRC32"
+#~ msgstr "Získávám CRC32"
+
+#~ msgid "Firmware download OK"
+#~ msgstr "Stažení firmwaru OK"
+
+#~ msgid "Erase OK"
+#~ msgstr "Výmaz OK"
+
+#~ msgid "Getting version info"
+#~ msgstr "Získávám informace o verzi"
+
+#~ msgid "Found EV3 in normal mode, switching to firmware update mode."
+#~ msgstr ""
+#~ "Nalezena EV3 v normálním režimu, přepínám do režimu aktualizace firmware."
+
+#~ msgid ""
+#~ "ev3tool [-h|--help] [-V|--version] [-v|--verbose] [-q|--quiet] <command>"
+#~ msgstr ""
+#~ "ev3tool [-h|--help] [-V|--version] [-v|--verbose] [-q|--quiet] <command>"
+
+#~ msgid "  -f=<path>,       "
+#~ msgstr "  -f=<path>,       "
+
+#~ msgid "  -t=<path>,       "
+#~ msgstr "  -t=<path>,       "
+
+#~ msgid "  -c=<addr>,       "
+#~ msgstr "  -c=<addr>,       "
+
+#~ msgid "Destination file must be specified."
+#~ msgstr "Musíte zadat cílový soubor."
+
+#~ msgid "Source file must be specified."
+#~ msgstr "Musíte zadat zdrojový soubor."
+
+#~ msgid "File to be deleted must be specified."
+#~ msgstr "Musíte určit soubor ke smazání."
+
+#~ msgid "Directory to be listed must be specified."
+#~ msgstr "Musíte zadat adresář k zobrazení."
+
+#~ msgid "Unknown argument: %s"
+#~ msgstr "Neznámý parametr: %s"
+
+#~ msgid "Progress: "
+#~ msgstr "Průběh: "
+
+#~ msgid "Exception: "
+#~ msgstr "Chyba: "
+
+#~ msgid "USB exception: "
+#~ msgstr "Chyba USB: "
+
+#~ msgid "Received untracked packet"
+#~ msgstr "Program obdržel neodeslaný paket"
+
+#~ msgid "Firmware CRC32: "
+#~ msgstr "CRC32 firmwaru: "
