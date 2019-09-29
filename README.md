@@ -52,6 +52,6 @@ HID:<VID>:<PID>[:<SN>]
 
 Supported platforms
 -------------------
-Xubuntu 18.04 works.
+Xubuntu 18.04 works; [![Build Status](https://travis-ci.org/JakubVanek/ev3tool.svg?branch=master)](https://travis-ci.org/JakubVanek/ev3tool)
 
 Windows should work too, but the code is not yet tested.
