@@ -1,0 +1,19 @@
+language: cpp
+dist: bionic
+compiler:
+- gcc
+os:
+- linux
+addons:
+  apt:
+    packages:
+      - cmake
+      - libhidapi-dev
+      - libhidapi-hidraw0
+notifications:
+  email: false
+script:
+     - mkdir -p build prefix
+     - cd build
+     - cmake -DCMAKE_INSTALL_PREFIX=$(pwd)/../prefix ..
+     - make install
