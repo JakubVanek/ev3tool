@@ -1,0 +1,3 @@
+[submodule "libasm/lmsasm"]
+	path = libasm/lmsasm
+	url = https://github.com/ev3dev/lmsasm
