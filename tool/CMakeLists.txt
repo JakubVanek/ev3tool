@@ -23,7 +23,10 @@ file(GLOB_RECURSE PRJ_HDR ${CMAKE_CURRENT_SOURCE_DIR}/src/*.h ${CMAKE_CURRENT_SO
 # Artifacts
 add_executable(ev3tool ${PRJ_SRC} ${PRJ_HDR})
 target_include_directories(ev3tool PUBLIC "${CMAKE_SOURCE_DIR}/libcomm/src" "${CMAKE_SOURCE_DIR}/libasm/src" ${Intl_INCLUDE_DIRS} ${HIDAPI_INCLUDE_DIRS} ${ZLIB_INCLUDE_DIRS})
-target_link_libraries(ev3tool ev3comm stdc++fs ${Intl_LIBRARIES} ${HIDAPI_LIBRARIES} ${ZLIB_LIBRARIES})
+target_link_libraries(ev3tool ev3comm stdc++fs
+        ${Intl_LIBRARIES}
+        ${HIDAPI_LIBRARIES}
+        ${ZLIB_LIBRARIES})
 
 install(TARGETS ev3tool
         RUNTIME DESTINATION bin

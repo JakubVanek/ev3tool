@@ -10,7 +10,7 @@
 #define TOOL_VERSION_MINOR  1
 #define TOOL_VERSION_PATCH  0
 #define TOOL_VERSION       "0.1.0"
-#define LOCALEDIR         "/home/kuba/ev3tool/share/locale"
+#define LOCALEDIR         "/home/kuba/.local/share/locale"
 
 #define EV3_VID       0x0694
 #define EV3_PID       0x0005

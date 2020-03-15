@@ -6,7 +6,7 @@
 #include <iostream>
 #include <experimental/filesystem>
 
-#include <localization.hpp>
+#include <ev3loader/i18n/localization.hpp>
 
 #include "localization_tool.hpp"
 #include "config.hpp"
